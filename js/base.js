@@ -13,9 +13,18 @@ $(document).ready(function() {
      * */
     var timeout;
     $(window).resize(function() {
+
         if (timeout) clearTimeout(timeout);
         timeout = setTimeout(menu_responsive, 10);
     });
+
+    if ($(window).width() <= 1280) {
+        if ($(this).width() <= 1280) {
+            document.getElementById("contentId").className = "content-max";
+            $('#menuIdSmall').show();
+            $(".menu").css("left", "-240px")
+        }
+    }
 })
 
 class YouTubeJS {
@@ -52,15 +61,16 @@ class YouTubeJS {
             }
         } else {
             $(".menu").css("position") === "absolute";
-
             if ($(".menu").css("margin-left") === "0px") {
                 $('.menu').animate({ 'marginLeft': "240px" });
                 $('.modal-menu').show();
                 $('.modal-menu').animate({ 'opacity': "50%" });
+                $("body").css("overflow-y", "hidden");
             } else {
                 $('.menu').animate({ 'marginLeft': "0px" });
                 $('.modal-menu').animate({ 'opacity': "0%" });
                 $('.modal-menu').hide();
+                $("body").css("overflow-y", "auto");
             }
         }
     }
@@ -69,6 +79,7 @@ class YouTubeJS {
         $('.menu').animate({ 'marginLeft': "0px" });
         $('.modal-menu').animate({ 'opacity': "0%" });
         $('.modal-menu').hide();
+        $("body").css("overflow-y", "auto");
     }
 }
 
@@ -86,5 +97,9 @@ function menu_responsive() {
         $('#menuIdSmall').hide();
         $(".menu").css("position") === "fixed";
         $(".menu").css("left", "0px")
+        $('.menu').css('margin-left', "0px");
+        $('.modal-menu').animate({ 'opacity': "0%" });
+        $('.modal-menu').hide();
+        $("body").css("overflow-y", "auto");
     }
 }
