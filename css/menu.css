@@ -1,0 +1,217 @@
+.menu-content {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: block;
+}
+
+.tab-menu {
+    width: 100%;
+    padding: 12px 0;
+    border-bottom: 1px solid #e6e6e6;
+    ;
+}
+
+.list-menu {
+    height: 40px;
+    width: 100%;
+    padding: 0 18px 0 24px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #030303;
+}
+
+.list-menu-small {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #606060;
+    padding: 16px 0 14px;
+}
+
+.list-menu:hover,
+.list-menu:focus,
+.list-menu-small:hover,
+.list-menu-small:focus {
+    background-color: #f0f0f0;
+    text-decoration: none;
+    color: #030303;
+}
+
+.text-menu {
+    padding: 8px 24px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #5f5f5f;
+    padding-right: 8px;
+}
+
+.text-content-menu {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1.1rem;
+    color: #030303;
+    overflow: hidden;
+    margin: 0;
+    line-height: 1.5;
+}
+
+
+/* ---------- Icon thanh Menu ---------- */
+
+.icon-base {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    margin-right: 24px;
+}
+
+.icon-base-small {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.icon-home {
+    background: url("/img/menu-1.PNG") no-repeat;
+    background-size: cover;
+}
+
+.icon-trend {
+    background: url("/img/trend.png") no-repeat;
+    background-size: cover;
+}
+
+.icon-arrow {
+    background: url("/img/arrow.png") no-repeat;
+    background-size: cover;
+}
+
+
+/* ---------- Icon các kênh đăng kí ---------- */
+
+.icon-channel-1 {
+    background: url("/img/channel-mixi.jpg") no-repeat;
+}
+
+.icon-channel-2 {
+    background: url("/img/channel-bom.jpg") no-repeat;
+}
+
+.icon-channel-3 {
+    background: url("/img/channel-dhy.jpg") no-repeat;
+}
+
+.icon-channel-4 {
+    background: url("/img/channel-khoapug.jpg") no-repeat;
+}
+
+.icon-channel-5 {
+    background: url("/img/channel-500bros.jpg") no-repeat;
+}
+
+.icon-channel-6 {
+    background: url("/img/channel-siro.jpg") no-repeat;
+}
+
+.icon-channel-7 {
+    background: url("/img/channel-3roi.jpg") no-repeat;
+}
+
+.icon-channel-8 {
+    background: url("/img/channel-vetv7.jpg") no-repeat;
+}
+
+.icon-channel-9 {
+    background: url("/img/channel-hbfood.jpg") no-repeat;
+}
+
+.icon-channel-10 {
+    background: url("/img/channel-minhnghi.jpg") no-repeat;
+}
+
+.icon-channel-11 {
+    background: url("/img/channel-sea.jpg") no-repeat;
+}
+
+.icon-channel {
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.selected-menu {
+    font-weight: 500;
+    background-color: #e6e6e6;
+}
+
+.tab-3,
+.tab-4 {
+    padding: 8px 0px;
+}
+
+.tab-5 {
+    padding: 12px 24px;
+}
+
+.tab-5 a {
+    text-decoration: none;
+    color: #606060;
+    font-weight: 500;
+    margin-right: 5px;
+    line-height: 1.4;
+}
+
+.tab-5 a:hover,
+.tab-5 a:focus {
+    text-decoration: none;
+    color: #606060;
+}
+
+.tab-5 p {
+    margin: 36px 0 5px;
+    color: #909090;
+}
+
+
+/* ----- Thanh cuộn CSS ----- */
+
+.menu-content::-webkit-scrollbar {
+    background-color: #cccaca;
+    width: 0px;
+    height: 100px;
+}
+
+.menu-content:hover::-webkit-scrollbar {
+    background-color: #cccaca;
+    width: 8px;
+    height: 100px;
+}
+
+.menu-content::-webkit-scrollbar-thumb {
+    background: #cccaca;
+    width: 0px;
+    height: 100px;
+}
+
+.menu-content:hover::-webkit-scrollbar-thumb {
+    background: #cccaca;
+    width: 8px;
+    height: 100px;
+}
+
+.menu-content::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+.menu-content::-webkit-scrollbar-thumb:hover {
+    background: #cccaca;
+}

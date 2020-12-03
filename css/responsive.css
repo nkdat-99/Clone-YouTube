@@ -1,0 +1,25 @@
+@media screen and (max-width: 1024px) {
+    .search-header {
+        margin-right: 0px;
+        flex: 0 0 48%;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .search-header {
+        margin-right: 0px;
+        flex: 0 0 46%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .search-header {
+        flex: 0 0 36%;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .search-header {
+        flex: 0 0 12%;
+    }
+}

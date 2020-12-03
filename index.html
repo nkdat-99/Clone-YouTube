@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="icon" type="image/png" href="/img/youtube.png" />
+    <link href="/css/style.css" rel="stylesheet" />
+    <link href="/css/header.css" rel="stylesheet" />
+    <link href="/css/menu.css" rel="stylesheet" />
+    <link href="/css/main.css" rel="stylesheet" />
+    <link href="/css/responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-content">
+            <div class="header-menu">
+                <div id="btnIconMenu" class="btn-menu">
+                    <i class="icon-menu"></i>
+                </div>
+                <a href="/index.html" class="icon-header"></a>
+            </div>
+            <div class="search-header">
+                <div class="input-search">
+                    <input type="text" placeholder="Tìm kiếm">
+                </div>
+                <div class="btn-search">
+                    <div class="icon-btn-search"></div>
+                </div>
+            </div>
+            <div class="list-info-header">
+                <div id="btn" class="icon-block-info-header" data-toggle="tooltip" data-placement="bottom" title="Tạo">
+                    <div class="icon-created"></div>
+                </div>
+                <div id="btn" class="icon-block-info-header" data-toggle="tooltip" data-placement="bottom" title="Các ứng dụng YouTube">
+                    <div class="icon-app"></div>
+                </div>
+                <div id="btn" class="icon-block-info-header" data-toggle="tooltip" data-placement="bottom" title="Thông báo">
+                    <div class="icon-notification"></div>
+                </div>
+                <div id="btn" class="icon-block-info-header">
+                    <div class="icon-account"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="menu" id="menuId">
+            <div class="menu-content">
+                <div class="tab-menu tab-1">
+                    <a href="" class="list-menu selected-menu" title="Trang chủ">
+                        <div class="icon-base icon-home"></div>
+                        Trang chủ
+                    </a>
+                    <a href="" class="list-menu" title="Thịnh hành">
+                        <div class="icon-base icon-trend"></div>
+                        Thịnh hành
+                    </a>
+                    <a href="" class="list-menu" title="Kênh đăng kí">
+                        <div class="icon-base icon-trend"></div>
+                        Kênh đăng ký
+                    </a>
+                </div>
+                <div class="tab-menu tab-2">
+                    <a href="" class="list-menu" title="Thư viện">
+                        <div class="icon-base icon-trend"></div>
+                        Thư viện
+                    </a>
+                    <a href="" class="list-menu" title="Lịch sử">
+                        <div class="icon-base icon-trend"></div>
+                        Lịch sử
+                    </a>
+                    <a href="" class="list-menu" title="Video của bạn">
+                        <div class="icon-base icon-trend"></div>
+                        Video của bạn
+                    </a>
+                    <a href="" class="list-menu" title="Xem sau">
+                        <div class="icon-base icon-trend"></div>
+                        Xem sau
+                    </a>
+                    <a href="" class="list-menu" title="Video đã thích">
+                        <div class="icon-base icon-trend"></div>
+                        Video đã thích
+                    </a>
+                    <a href="" class="list-menu" title="Thêm">
+                        <div class="icon-base icon-arrow"></div>
+                        Thêm
+                    </a>
+                </div>
+                <div class="tab-menu tab-3">
+                    <div class="text-menu">KÊNH ĐĂNG KÝ</div>
+                    <a href="" class="list-menu" title="MixiGaming">
+                        <div class="icon-base icon-channel icon-channel-1"></div>
+                        <p class="text-content-menu">MixiGaming</p>
+                    </a>
+                    <a href="" class="list-menu" title="Bomman">
+                        <div class="icon-base icon-channel icon-channel-2"></div>
+                        <p class="text-content-menu">Bomman</p>
+                    </a>
+                    <a href="" class="list-menu" title="Dương Hoàng Yến">
+                        <div class="icon-base icon-channel icon-channel-3"></div>
+                        <p class="text-content-menu">Dương Hoàng Yến</p>
+                    </a>
+                    <a href="" class="list-menu" title="Khoa Pug">
+                        <div class="icon-base icon-channel icon-channel-4"></div>
+                        <p class="text-content-menu">Khoa Pug</p>
+                    </a>
+                    <a href="" class="list-menu" title="500BROS CS:GO">
+                        <div class="icon-base icon-channel icon-channel-5"></div>
+                        <p class="text-content-menu">500BROS CS:GO</p>
+                    </a>
+                    <a href="" class="list-menu" title="Mr. Siro">
+                        <div class="icon-base icon-channel icon-channel-6"></div>
+                        <p class="text-content-menu">Mr. Siro</p>
+                    </a>
+                    <a href="" class="list-menu" title="Ba Rọi Béo">
+                        <div class="icon-base icon-channel icon-channel-7"></div>
+                        <p class="text-content-menu">Ba Rọi Béo</p>
+                    </a>
+                    <a href="" class="list-menu" title="VETV7 ESPORTS">
+                        <div class="icon-base icon-channel icon-channel-8"></div>
+                        <p class="text-content-menu">VETV7 ESPORTS</p>
+                    </a>
+                    <a href="" class="list-menu" title="HOA BAN FOOD">
+                        <div class="icon-base icon-channel icon-channel-9"></div>
+                        <p class="text-content-menu">HOA BAN FOOD</p>
+                    </a>
+                    <a href="" class="list-menu" title="Trần Nguyễn Minh Nghi">
+                        <div class="icon-base icon-channel icon-channel-10"></div>
+                        <p class="text-content-menu">Trần Nguyễn Minh Nghi</p>
+                    </a>
+                    <a href="" class="list-menu" title="Sena">
+                        <div class="icon-base icon-channel icon-channel-11"></div>
+                        <p class="text-content-menu">Sena</p>
+                    </a>
+                    <a href="" class="list-menu" title="Hiển thị thêm 5 mục">
+                        <div class="icon-base icon-arrow"></div>
+                        Hiển thị thêm 5 mục
+                    </a>
+                </div>
+                <div class="tab-menu tab-4">
+                    <div class="text-menu">DỊCH VỤ KHÁC CỦA YOUTUBE</div>
+                    <a href="" class="list-menu" title="Trò chơi">
+                        <div class="icon-base icon-trend"></div>
+                        Trò chơi
+                    </a>
+                    <a href="" class="list-menu" title="Sự kiện trực tiếp">
+                        <div class="icon-base icon-trend"></div>
+                        Sự kiện trực tiếp
+                    </a>
+                </div>
+                <div class="tab-menu tab-4">
+                    <a href="" class="list-menu" title="Cài đặt">
+                        <div class="icon-base icon-trend"></div>
+                        Cài đặt
+                    </a>
+                    <a href="" class="list-menu" title="Lịch sử báo cáo">
+                        <div class="icon-base icon-trend"></div>
+                        Lịch sử báo cáo
+                    </a>
+                    <a href="" class="list-menu" title="Trợ giúp">
+                        <div class="icon-base icon-trend"></div>
+                        Trợ giúp
+                    </a>
+                    <a href="" class="list-menu" title="Gửi phản hồi">
+                        <div class="icon-base icon-trend"></div>
+                        Gửi phản hồi
+                    </a>
+                </div>
+                <div class="tab-menu tab-5">
+                    <a href="">Giới thiệu</a>
+                    <a href="">Báo chí</a>
+                    <a href="">Bản quyền</a>
+                    <br>
+                    <a href="">Liên hệ với chúng tôi</a>
+                    <br>
+                    <a href="">Người sáng tạo</a>
+                    <a href="">Quảng cáo</a>
+                    <br>
+                    <a href="">Nhà phát triển</a>
+                    <br>
+                    <br>
+                    <a href="">Điều khoản</a>
+                    <a href="">Quyền riêng tư</a>
+                    <br>
+                    <a href="">Chính sách và an toàn</a>
+                    <br>
+                    <a href="">Cách YouTube hoạt động</a>
+                    <br>
+                    <a href="">Thử các tính năng mới</a>
+                    <p>© 2020 Google LLC</p>
+                </div>
+            </div>
+        </div>
+        <div class="menu-small" id="menuIdSmall">
+            <div class="menu-content-small">
+                <a href="" class="list-menu-small" title="Trang chủ" style="color: red;">
+                    <div class="icon-base-small icon-home"></div>
+                    Trang chủ
+                </a>
+                <a href="" class="list-menu-small" title="Thịnh hành">
+                    <div class="icon-base-small icon-trend"></div>
+                    Thịnh hành
+                </a>
+                <a href="" class="list-menu-small" title="Kênh đăng kí">
+                    <div class="icon-base-small icon-trend"></div>
+                    Kênh đăng ký
+                </a>
+                <a href="" class="list-menu-small" title="Thư viện">
+                    <div class="icon-base-small icon-trend"></div>
+                    Thư viện
+                </a>
+            </div>
+        </div>
+        <div class="content" id="contentId">
+            <div class="modal-menu"></div>
+            <div class="video">
+                <div class="gird-video">
+                    <div class="video-container video-1">
+                        <a class="img-link-video">
+                            <img class="img-video" src="img/video-5.PNG">
+                        </a>
+                        <div class="video-bottom-section">
+                            <div class="video-details">
+                                <a href="#" class="video-title" title="Danh sách nhạc kết hợp của tôi">
+                                    <p>Danh sách nhạc kết hợp của tôi</p>
+                                </a>
+                                <span><a href="#" class="video-channel-name" data-toggle="tooltip" data-placement="bottom" title="Nhi Nhi, Freak D và nhiều nghệ sĩ khác">Nhi Nhi, Freak D và nhiều nghệ sĩ khác</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-container video-2">
+                        <a class="img-link-video">
+                            <img class="img-video" src="img/video-4.PNG">
+                        </a>
+                        <div class="video-bottom-section">
+                            <div class="video-details">
+                                <a href="#" class="video-title" title="Danh sách kết hợp – Hoa Chưa Tàn Tình Đã Tan (Lofi Ver.) - NB3 Hoài Bảo x Freak D">
+                                    <p>Danh sách kết hợp – Hoa Chưa Tàn Tình Đã Tan (Lofi Ver.) - NB3 Hoài Bảo x Freak D</p>
+                                </a>
+                                <span><a href="#" class="video-channel-name" data-toggle="tooltip" data-placement="bottom" title="Freak D, NB3 Hoài Bảo, Nau và nhiều nghệ sĩ khác">Freak D, NB3 Hoài Bảo, Nau và nhiều nghệ sĩ khác</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-container video-3">
+                        <a class="img-link-video">
+                            <img class="img-video" src="img/video-2.PNG">
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img class="channel-icon" src="/img/channel-mixi.jpg" />
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title" title="(Talkshow) Học nhiều quá liệu có bị ngu, Chuyện sống ảo đăng ảnh lên mạng mà ít like.">
+                                    <p>(Talkshow) Học nhiều quá liệu có bị ngu, Chuyện sống ảo đăng ảnh lên mạng mà ít like.</p>
+                                </a>
+                                <span><a href="#" class="video-channel-name" data-toggle="tooltip" data-placement="bottom" title="MixiGaming">MixiGaming</a></span>
+                                <div class="video-metadata">
+                                    <span>491 N lượt xem</span> •
+                                    <span>12 giờ trước</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-container video-4">
+                        <a class="img-link-video">
+                            <img class="img-video" src="img/video-1.PNG">
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img class="channel-icon" src="/img/channel-bom.jpg" />
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title" title="Ký Sự Check Hack tập 11 | Màn Dọa Nạt Tâm Lý Khiến Đồng Bào Run Sợ Đầu Hàng Ngay Lập Tức">
+                                    <p>Ký Sự Check Hack tập 11 | Màn Dọa Nạt Tâm Lý Khiến Đồng Bào Run Sợ Đầu Hàng Ngay Lập Tức</p>
+                                </a>
+                                <span><a href="#" class="video-channel-name" data-toggle="tooltip" data-placement="bottom" title="Bomman">Bomman</a></span>
+                                <div class="video-metadata">
+                                    <span>2,5 N lượt xem</span> •
+                                    <span>55 phút trước</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-container video-5">
+                        <a class="img-link-video">
+                            <img class="img-video" src="img/video-6.PNG">
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img class="channel-icon" src="/img/channel-3roi.jpg" />
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title" title="TRUNG REACTION | ONE PIECE LIVE ACTION & PARODY FAN-FILM | TEASER TRAILER">
+                                    <p>TRUNG REACTION | ONE PIECE LIVE ACTION & PARODY FAN-FILM | TEASER TRAILER</p>
+                                </a>
+                                <span><a href="#" class="video-channel-name" data-toggle="tooltip" data-placement="bottom" title="Ba Rọi Béo">Ba Rọi Béo</a></span>
+                                <div class="video-metadata">
+                                    <span>70 N lượt xem</span> •
+                                    <span>11 giờ trước</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-container video-6">
+                        <a class="img-link-video">
+                            <img class="img-video" src="img/video-8.PNG">
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img class="channel-icon" src="/img/channel-khoapug.jpg" />
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title" title="Dê Núi Hà Giang, Cá Suối Thác Bản Giốc - Khoa Pug Choáng Với Tứ Đại Đỉnh Đèo Tây Bắc Mã Pì Lèng">
+                                    <p>Dê Núi Hà Giang, Cá Suối Thác Bản Giốc - Khoa Pug Choáng Với Tứ Đại Đỉnh Đèo Tây Bắc Mã Pì Lèng</p>
+                                </a>
+                                <span><a href="#" class="video-channel-name" data-toggle="tooltip" data-placement="bottom" title="Khoa Pug">Khoa Pug</a></span>
+                                <div class="video-metadata">
+                                    <span>1 Tr lượt xem</span> •
+                                    <span>2 ngày trước</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-container video-7">
+                        <a class="img-link-video">
+                            <img class="img-video" src="img/video-3.PNG">
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img class="channel-icon" src="/img/phim567.jpg" />
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title" title="Gia Cát Lượng Vì Sao Luôn Được Đánh Giá Giỏi Hơn Chu Du 1 Bậc ? | TAM QUỐC DIỄN NGHĨA | Phim567">
+                                    <p>Gia Cát Lượng Vì Sao Luôn Được Đánh Giá Giỏi Hơn Chu Du 1 Bậc ? | TAM QUỐC DIỄN NGHĨA | Phim567</p>
+                                </a>
+                                <span><a href="#" class="video-channel-name" data-toggle="tooltip" data-placement="bottom" title="Phim 567">Phim 567</a></span>
+                                <div class="video-metadata">
+                                    <span>217 N lượt xem</span> •
+                                    <span>2 tháng trước</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="line-container-video"></div>
+                <div class="video-trend">
+                    <span class="title-video-trend">Tin nổi bật</span>
+                    <div class="gird-video">
+                        <div class="video-container video-trend-1">
+                            <a class="img-link-video">
+                                <img class="img-video" src="img/video-10.PNG">
+                            </a>
+                            <div class="video-bottom-section">
+                                <a href="#">
+                                    <img class="channel-icon" src="/img/channel-tintuc24h.jpg" />
+                                </a>
+                                <div class="video-details">
+                                    <a href="#" class="video-title" title="Dịch Covid 19 hôm nay 30/11, Thêm 3 ca nhiễm mới virus corona mới. TP.HCM xuất ca nhiễm covid mới">
+                                        <p>Dịch Covid 19 hôm nay 30/11, Thêm 3 ca nhiễm mới virus corona mới. TP.HCM xuất ca nhiễm covid mới</p>
+                                    </a>
+                                    <span><a href="#" class="video-channel-name" data-toggle="tooltip" data-placement="bottom" title="TIN TỨC 24H ONLINE">TIN TỨC 24H ONLINE</a></span>
+                                    <div class="video-metadata">
+                                        <span>120 N lượt xem</span> •
+                                        <span>2 ngày trước</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-container video-trend-2">
+                            <a class="img-link-video">
+                                <img class="img-video" src="img/video-9.PNG">
+                            </a>
+                            <div class="video-bottom-section">
+                                <a href="#">
+                                    <img class="channel-icon" src="/img/channel-vtc.jpg" />
+                                </a>
+                                <div class="video-details">
+                                    <a href="#" class="video-title" title="Dịch Covid-19 hôm nay 30/11: TPHCM phát hiện 1 người nghi mắc, cách ly 13 F1,F2 | VTC Now">
+                                        <p>Dịch Covid-19 hôm nay 30/11: TPHCM phát hiện 1 người nghi mắc, cách ly 13 F1,F2 | VTC Now</p>
+                                    </a>
+                                    <span><a href="#" class="video-channel-name" data-toggle="tooltip" data-placement="bottom" title="VTC NOW">VTC NOW</a></span>
+                                    <div class="video-metadata">
+                                        <span>66 N lượt xem</span> •
+                                        <span>Phát trực tiếp 2 ngày trước</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-container video-trend-3">
+                            <a class="img-link-video">
+                                <img class="img-video" src="img/video-11.PNG">
+                            </a>
+                            <div class="video-bottom-section">
+                                <a href="#">
+                                    <img class="channel-icon" src="/img/channel-vtv24.jpg" />
+                                </a>
+                                <div class="video-details">
+                                    <a href="#" class="video-title" title="TP.HCM: Bệnh nhân mắc COVID-19 thứ 1347 là ca lây nhiễm từ người cách ly | VTV24">
+                                        <p>TP.HCM: Bệnh nhân mắc COVID-19 thứ 1347 là ca lây nhiễm từ người cách ly | VTV24</p>
+                                    </a>
+                                    <span><a href="#" class="video-channel-name" data-toggle="tooltip" data-placement="bottom" title="VTV24">VTV24</a></span>
+                                    <div class="video-metadata">
+                                        <span>152 N lượt xem</span> •
+                                        <span>1 ngày trước</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-container video-trend-4">
+                            <a class="img-link-video">
+                                <img class="img-video" src="img/video-12.PNG">
+                            </a>
+                            <div class="video-bottom-section">
+                                <a href="#">
+                                    <img class="channel-icon" src="/img/channel-baotn.jpg" />
+                                </a>
+                                <div class="video-details">
+                                    <a href="#" class="video-title" title="TP.HCM phát hiện thêm 2 bệnh nhân Covid-19 liên quan đến giáo viên tiếng Anh">
+                                        <p>TP.HCM phát hiện thêm 2 bệnh nhân Covid-19 liên quan đến giáo viên tiếng Anh</p>
+                                    </a>
+                                    <span><a href="#" class="video-channel-name" data-toggle="tooltip" data-placement="bottom" title="Báo Thanh Niên">Báo Thanh Niên</a></span>
+                                    <div class="video-metadata">
+                                        <span>170 N lượt xem</span> •
+                                        <span>1 ngày trước</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="line-container-video"></div>
+                <div class="gird-video">
+                    <div class="video-container video-8">
+                        <a class="img-link-video">
+                            <img class="img-video" src="img/video-7.PNG">
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img class="channel-icon" src="/img/channel-mixi.jpg" />
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title" title="(Game) Đá bóng cùng anh em và rút tiền từ cây ATM Cao Lãnh">
+                                    <p>(Game) Đá bóng cùng anh em và rút tiền từ cây ATM Cao Lãnh</p>
+                                </a>
+                                <span><a href="#" class="video-channel-name" data-toggle="tooltip" data-placement="bottom" title="MixiGaming">MixiGaming</a></span>
+                                <div class="video-metadata">
+                                    <span>576 N lượt xem</span> •
+                                    <span>5 giờ trước</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-container video-10">
+                        <a class="img-link-video">
+                            <img class="img-video" src="img/video-6.PNG">
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img class="channel-icon" src="/img/channel-3roi.jpg" />
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title" title="[02/12/2020] hello !!! Diện mạo mới SBTC Esports">
+                                    <p>[02/12/2020] hello !!! Diện mạo mới SBTC Esports</p>
+                                </a>
+                                <span><a href="#" class="video-channel-name" data-toggle="tooltip" data-placement="bottom" title="Ba Rọi Béo">Ba Rọi Béo</a></span>
+                                <div class="video-metadata">
+                                    <span>70 N lượt xem</span> •
+                                    <span>11 giờ trước</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-container video-3">
+                        <a class="img-link-video">
+                            <img class="img-video" src="img/video-2.PNG">
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img class="channel-icon" src="/img/channel-mixi.jpg" />
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title" title="(Talkshow) Học nhiều quá liệu có bị ngu, Chuyện sống ảo đăng ảnh lên mạng mà ít like.">
+                                    <p>(Talkshow) Học nhiều quá liệu có bị ngu, Chuyện sống ảo đăng ảnh lên mạng mà ít like.</p>
+                                </a>
+                                <span><a href="#" class="video-channel-name" data-toggle="tooltip" data-placement="bottom" title="MixiGaming">MixiGaming</a></span>
+                                <div class="video-metadata">
+                                    <span>491 N lượt xem</span> •
+                                    <span>12 giờ trước</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-container video-4">
+                        <a class="img-link-video">
+                            <img class="img-video" src="img/video-1.PNG">
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img class="channel-icon" src="/img/channel-bom.jpg" />
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title" title="Ký Sự Check Hack tập 11 | Màn Dọa Nạt Tâm Lý Khiến Đồng Bào Run Sợ Đầu Hàng Ngay Lập Tức">
+                                    <p>Ký Sự Check Hack tập 11 | Màn Dọa Nạt Tâm Lý Khiến Đồng Bào Run Sợ Đầu Hàng Ngay Lập Tức</p>
+                                </a>
+                                <span><a href="#" class="video-channel-name" data-toggle="tooltip" data-placement="bottom" title="Bomman">Bomman</a></span>
+                                <div class="video-metadata">
+                                    <span>2,5 N lượt xem</span> •
+                                    <span>55 phút trước</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-container video-5">
+                        <a class="img-link-video">
+                            <img class="img-video" src="img/video-6.PNG">
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img class="channel-icon" src="/img/channel-3roi.jpg" />
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title" title="TRUNG REACTION | ONE PIECE LIVE ACTION & PARODY FAN-FILM | TEASER TRAILER">
+                                    <p>TRUNG REACTION | ONE PIECE LIVE ACTION & PARODY FAN-FILM | TEASER TRAILER</p>
+                                </a>
+                                <span><a href="#" class="video-channel-name" data-toggle="tooltip" data-placement="bottom" title="Ba Rọi Béo">Ba Rọi Béo</a></span>
+                                <div class="video-metadata">
+                                    <span>70 N lượt xem</span> •
+                                    <span>11 giờ trước</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-container video-6">
+                        <a class="img-link-video">
+                            <img class="img-video" src="img/video-8.PNG">
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img class="channel-icon" src="/img/channel-khoapug.jpg" />
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title" title="Dê Núi Hà Giang, Cá Suối Thác Bản Giốc - Khoa Pug Choáng Với Tứ Đại Đỉnh Đèo Tây Bắc Mã Pì Lèng">
+                                    <p>Dê Núi Hà Giang, Cá Suối Thác Bản Giốc - Khoa Pug Choáng Với Tứ Đại Đỉnh Đèo Tây Bắc Mã Pì Lèng</p>
+                                </a>
+                                <span><a href="#" class="video-channel-name" data-toggle="tooltip" data-placement="bottom" title="Khoa Pug">Khoa Pug</a></span>
+                                <div class="video-metadata">
+                                    <span>1 Tr lượt xem</span> •
+                                    <span>2 ngày trước</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-container video-7">
+                        <a class="img-link-video">
+                            <img class="img-video" src="img/video-3.PNG">
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img class="channel-icon" src="/img/phim567.jpg" />
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title" title="Gia Cát Lượng Vì Sao Luôn Được Đánh Giá Giỏi Hơn Chu Du 1 Bậc ? | TAM QUỐC DIỄN NGHĨA | Phim567">
+                                    <p>Gia Cát Lượng Vì Sao Luôn Được Đánh Giá Giỏi Hơn Chu Du 1 Bậc ? | TAM QUỐC DIỄN NGHĨA | Phim567</p>
+                                </a>
+                                <span><a href="#" class="video-channel-name" data-toggle="tooltip" data-placement="bottom" title="Phim 567">Phim 567</a></span>
+                                <div class="video-metadata">
+                                    <span>217 N lượt xem</span> •
+                                    <span>2 tháng trước</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-container video-3">
+                        <a class="img-link-video">
+                            <img class="img-video" src="img/video-2.PNG">
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img class="channel-icon" src="/img/channel-mixi.jpg" />
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title" title="(Talkshow) Học nhiều quá liệu có bị ngu, Chuyện sống ảo đăng ảnh lên mạng mà ít like.">
+                                    <p>(Talkshow) Học nhiều quá liệu có bị ngu, Chuyện sống ảo đăng ảnh lên mạng mà ít like.</p>
+                                </a>
+                                <span><a href="#" class="video-channel-name" data-toggle="tooltip" data-placement="bottom" title="MixiGaming">MixiGaming</a></span>
+                                <div class="video-metadata">
+                                    <span>491 N lượt xem</span> •
+                                    <span>12 giờ trước</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-container video-4">
+                        <a class="img-link-video">
+                            <img class="img-video" src="img/video-1.PNG">
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img class="channel-icon" src="/img/channel-bom.jpg" />
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title" title="Ký Sự Check Hack tập 11 | Màn Dọa Nạt Tâm Lý Khiến Đồng Bào Run Sợ Đầu Hàng Ngay Lập Tức">
+                                    <p>Ký Sự Check Hack tập 11 | Màn Dọa Nạt Tâm Lý Khiến Đồng Bào Run Sợ Đầu Hàng Ngay Lập Tức</p>
+                                </a>
+                                <span><a href="#" class="video-channel-name" data-toggle="tooltip" data-placement="bottom" title="Bomman">Bomman</a></span>
+                                <div class="video-metadata">
+                                    <span>2,5 N lượt xem</span> •
+                                    <span>55 phút trước</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------- JS ------------------------->
+    <!-- <script src="/js/lib/jquery-3.5.1.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/js/base.js"></script>
+</body>
+
+</html>
