@@ -101,7 +101,7 @@
     width: 14px;
     height: 14px;
     display: flex;
-    background: url("../img/header-4.png") no-repeat;
+    background: url("../img/header-4.PNG") no-repeat;
     background-size: cover;
 }
 
@@ -124,7 +124,7 @@
     width: 22px;
     height: 22px;
     display: flex;
-    background: url("../img/header-1.png") no-repeat;
+    background: url("../img/header-1.PNG") no-repeat;
     background-size: cover;
 }
 
@@ -132,7 +132,7 @@
     width: 20px;
     height: 20px;
     display: flex;
-    background: url("../img/header-2.png") no-repeat;
+    background: url("../img/header-2.PNG") no-repeat;
     background-size: cover;
 }
 
@@ -140,7 +140,7 @@
     width: 23px;
     height: 23px;
     display: flex;
-    background: url("../img/header-3.png") no-repeat;
+    background: url("../img/header-3.PNG") no-repeat;
     background-size: cover;
 }
 
