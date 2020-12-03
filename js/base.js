@@ -1,4 +1,12 @@
 $(document).ready(function() {
+    if ($(window).width() <= 1280) {
+        if ($(this).width() <= 1280) {
+            document.getElementById("contentId").className = "content-max";
+            $('#menuIdSmall').show();
+            $(".menu").css("left", "-240px")
+        }
+    }
+
     try {
         youTubeJS = new YouTubeJS();
     } catch (e) {
@@ -13,18 +21,9 @@ $(document).ready(function() {
      * */
     var timeout;
     $(window).resize(function() {
-
         if (timeout) clearTimeout(timeout);
         timeout = setTimeout(menu_responsive, 10);
     });
-
-    if ($(window).width() <= 1280) {
-        if ($(this).width() <= 1280) {
-            document.getElementById("contentId").className = "content-max";
-            $('#menuIdSmall').show();
-            $(".menu").css("left", "-240px")
-        }
-    }
 })
 
 class YouTubeJS {
