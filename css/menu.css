@@ -82,17 +82,17 @@
 }
 
 .icon-home {
-    background: url("/img/menu-1.PNG") no-repeat;
+    background: url("../img/menu-1.PNG") no-repeat;
     background-size: cover;
 }
 
 .icon-trend {
-    background: url("/img/trend.png") no-repeat;
+    background: url("../img/trend.png") no-repeat;
     background-size: cover;
 }
 
 .icon-arrow {
-    background: url("/img/arrow.png") no-repeat;
+    background: url("../img/arrow.png") no-repeat;
     background-size: cover;
 }
 
@@ -100,47 +100,47 @@
 /* ---------- Icon các kênh đăng kí ---------- */
 
 .icon-channel-1 {
-    background: url("/img/channel-mixi.jpg") no-repeat;
+    background: url("../img/channel-mixi.jpg") no-repeat;
 }
 
 .icon-channel-2 {
-    background: url("/img/channel-bom.jpg") no-repeat;
+    background: url("../img/channel-bom.jpg") no-repeat;
 }
 
 .icon-channel-3 {
-    background: url("/img/channel-dhy.jpg") no-repeat;
+    background: url("../img/channel-dhy.jpg") no-repeat;
 }
 
 .icon-channel-4 {
-    background: url("/img/channel-khoapug.jpg") no-repeat;
+    background: url("../img/channel-khoapug.jpg") no-repeat;
 }
 
 .icon-channel-5 {
-    background: url("/img/channel-500bros.jpg") no-repeat;
+    background: url("../img/channel-500bros.jpg") no-repeat;
 }
 
 .icon-channel-6 {
-    background: url("/img/channel-siro.jpg") no-repeat;
+    background: url("../img/channel-siro.jpg") no-repeat;
 }
 
 .icon-channel-7 {
-    background: url("/img/channel-3roi.jpg") no-repeat;
+    background: url("../img/channel-3roi.jpg") no-repeat;
 }
 
 .icon-channel-8 {
-    background: url("/img/channel-vetv7.jpg") no-repeat;
+    background: url("../img/channel-vetv7.jpg") no-repeat;
 }
 
 .icon-channel-9 {
-    background: url("/img/channel-hbfood.jpg") no-repeat;
+    background: url("../img/channel-hbfood.jpg") no-repeat;
 }
 
 .icon-channel-10 {
-    background: url("/img/channel-minhnghi.jpg") no-repeat;
+    background: url("../img/channel-minhnghi.jpg") no-repeat;
 }
 
 .icon-channel-11 {
-    background: url("/img/channel-sea.jpg") no-repeat;
+    background: url("../img/channel-sea.jpg") no-repeat;
 }
 
 .icon-channel {

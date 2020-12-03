@@ -34,7 +34,7 @@
 .header-menu .icon-menu {
     display: flex;
     justify-content: center;
-    background: url(/img/icon-header.png) no-repeat;
+    background: url(../img/icon-header.png) no-repeat;
     width: 19px;
     height: 13px;
     background-size: cover;
@@ -43,7 +43,7 @@
 .header-menu .icon-header {
     display: flex;
     justify-content: center;
-    background: url(/img/youtube-header.png) no-repeat;
+    background: url(../img/youtube-header.png) no-repeat;
     width: 95px;
     height: 18px;
     background-size: cover;
@@ -101,7 +101,7 @@
     width: 14px;
     height: 14px;
     display: flex;
-    background: url(/img/header-4.png) no-repeat;
+    background: url(../img/header-4.png) no-repeat;
     background-size: cover;
 }
 
@@ -124,7 +124,7 @@
     width: 22px;
     height: 22px;
     display: flex;
-    background: url(/img/header-1.png) no-repeat;
+    background: url(../img/header-1.png) no-repeat;
     background-size: cover;
 }
 
@@ -132,7 +132,7 @@
     width: 20px;
     height: 20px;
     display: flex;
-    background: url(/img/header-2.png) no-repeat;
+    background: url(../img/header-2.png) no-repeat;
     background-size: cover;
 }
 
@@ -140,7 +140,7 @@
     width: 23px;
     height: 23px;
     display: flex;
-    background: url(/img/header-3.png) no-repeat;
+    background: url(../img/header-3.png) no-repeat;
     background-size: cover;
 }
 
@@ -154,6 +154,6 @@
     height: 32px;
     border-radius: 50%;
     display: flex;
-    background: url(/img/avatar.jpg) no-repeat;
+    background: url(../img/avatar.jpg) no-repeat;
     background-size: cover;
 }
